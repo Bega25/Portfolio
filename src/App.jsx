@@ -9,6 +9,7 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 import ThemeSwitcher from './components/ThemeSwitcher';
+import { Navbar } from './components/Navbar';
 
 const AppContainer = styled.div`
   font-family: 'Inter', sans-serif;
@@ -21,21 +22,6 @@ const AppContainer = styled.div`
   &.dark {
     background-color: #111827;
     color: #ffffff;
-  }
-`;
-
-const SwitchersContainer = styled.div`
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 1000;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-
-  @media (min-width: 640px) {
-    top: 1.5rem;
-    right: 1.5rem;
   }
 `;
 
@@ -70,10 +56,12 @@ function App() {
 
   return (
     <AppContainer className={isDarkMode ? 'dark' : ''}>
-      <SwitchersContainer>
-        <ThemeSwitcher />
-        <LanguageSwitcher currentLang={lang} setLang={setLang} />
-      </SwitchersContainer>
+      <Navbar 
+        translations={currentTranslations} 
+        currentLang={lang} 
+        setLang={setLang} 
+        setIsDarkMode={setIsDarkMode}
+      />
       <main>
         <Hero translations={currentTranslations.hero} />
         <About translations={currentTranslations.about} />

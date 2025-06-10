@@ -182,6 +182,7 @@ const Blob = styled(motion.div)`
 export const Hero = ({ translations }) => {
   return (
     <HeroSection
+      id="hero"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -208,15 +209,26 @@ export const Hero = ({ translations }) => {
         <HeroTitle className={document.documentElement.classList.contains('dark') ? 'dark' : ''}>{translations.title}</HeroTitle>
         <HeroSubtitle className={document.documentElement.classList.contains('dark') ? 'dark' : ''}>{translations.subtitle}</HeroSubtitle>
         <HeroDescription className={document.documentElement.classList.contains('dark') ? 'dark' : ''}>{translations.description}</HeroDescription>
-        <CallToAction
-          href="#projects"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          {translations.cta}
-        </CallToAction>
+        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginBottom: '3rem' }}>
+          <CallToAction
+            href="#projects"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {translations.cta}
+          </CallToAction>
+          <CallToAction
+            href="/Lebenslauf.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {translations.viewResume}
+          </CallToAction>
+        </div>
 
-        <StatsContainer
+        {/* <StatsContainer
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
@@ -234,7 +246,7 @@ export const Hero = ({ translations }) => {
             <StatNumber>{translations.stats.clients}</StatNumber>
             <StatLabel>Happy Clients</StatLabel>
           </StatItem>
-        </StatsContainer>
+        </StatsContainer> */}
       </HeroContainer>
 
       <ScrollIndicator

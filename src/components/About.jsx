@@ -273,6 +273,7 @@ export const About = ({ translations }) => {
 
   return (
     <AboutSection
+      id="about"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -303,6 +304,7 @@ export const About = ({ translations }) => {
 
         <TimelineContainer>
           <TimelineTitle
+            id="work-experience"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

@@ -2,285 +2,245 @@ export const translations = {
   en: {
     hero: {
       title: "Hi, I'm Bekzod Huseinov",
-      subtitle: "Motivated and ambitious candidate with a strong interest in IT. I am excited to start an apprenticeship as an IT specialist in application development and become part of your team.",
-      description: "With some initial work experience, I am eager to deepen my knowledge in software development through an apprenticeship (Ausbildung) in Germany. I am passionate about learning and contributing to innovative projects.",
+      subtitle: "Motivated candidate seeking Ausbildung as IT Specialist for Application Development",
+      description: "I'm eager to start my professional journey in software development through an apprenticeship program in Germany. With basic programming knowledge and strong motivation to learn, I'm ready to contribute to your team.",
       cta: "View My Work",
+      viewResume: "View Resume",
       stats: {
-        projects: "50+",
-        experience: "5+",
-        clients: "30+"
+        projects: "8+",
+        experience: "2+",
+        clients: "5+"
       }
     },
     about: {
       title: "About Me",
       subtitle: "My Journey",
-      description: "I am a highly motivated and ambitious junior developer with a strong interest in application development. My passion lies in technology, and I actively work to continuously improve my skills. I am seeking an apprenticeship position in Germany to deepen my knowledge and become part of an innovative team.",
+      description: "I am a motivated candidate with a strong interest in IT and application development. I'm seeking an Ausbildung opportunity to develop my programming skills and start my career in software development. I have some basic experience with programming and am eager to learn and grow.",
       experience: {
-        title: "Professional Experience",
+        title: "Work Experience",
         items: [
           {
-            role: "Junior Developer",
-            company: "Wize Startup",
-            period: "05/2023 - Present",
-            description: "Contributed to the development and implementation of web applications using React.js and Node.js. Responsible for creating RESTful APIs and integrating databases. Actively participated in code reviews and optimized application performance."
-          },
-          {
-            role: "Assistant, Tourism Committee RT",
-            company: "",
+            role: "Assistant",
+            company: "Tourism Committee RT",
             period: "01/2023 - 04/2023",
-            description: "Assisted in maintaining IT systems and networks. Performed software updates and troubleshooting."
+            description: "Assisted with IT system maintenance and network support. Performed software updates and basic troubleshooting. Gained experience with office software and basic IT support tasks."
           },
           {
-            role: "Consultant, Alif Bank",
-            company: "",
+            role: "Consultant",
+            company: "Alif Bank",
             period: "06/2022 - 08/2022",
-            description: "Advised clients on banking products and services. Supported the digitalization of processes."
+            description: "Provided customer consultation on banking products and services. Supported digitalization processes and learned about business workflows and customer service."
           },
           {
-            role: "Salesperson, Computer Store Hightech",
-            company: "",
+            role: "Salesperson",
+            company: "Computer Store Hrightech",
             period: "07/2021 - 10/2021",
-            description: "Sold and advised on IT products. Provided support for software installation."
+            description: "Sold computer hardware and software. Provided basic technical advice to customers and assisted with software installation. Developed understanding of IT products and customer needs."
           }
         ]
       },
       education: {
-        title: "Education",
+        title: "Education & Learning",
         items: [
           {
-            degree: "Master's in Computer Science",
-            school: "University Name",
-            period: "2018 - 2020"
+            degree: "Self-Study Programming",
+            school: "Online Courses & Tutorials",
+            period: "2022 - Present"
           },
           {
-            degree: "Bachelor's in Software Engineering",
-            school: "University Name",
-            period: "2014 - 2018"
+            degree: "Basic IT Knowledge",
+            school: "Practical Experience",
+            period: "2021 - Present"
           }
         ]
       }
     },
     skills: {
-      title: "Skills & Expertise",
-      subtitle: "Technologies I work with",
-      technical: {
-        title: "Technical Skills",
-        categories: {
-          frontend: {
-            title: "Frontend Development",
-            skills: ["React.js", "JavaScript", "HTML", "CSS", "Tailwind CSS"]
-          },
-          backend: {
-            title: "Backend Development",
-            skills: ["Python", "Java", "Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"]
-          },
-          tools: {
-            title: "Tools & Others",
-            skills: ["Git", "Docker", "Figma", "Jira", "Confluence"]
-          }
-        }
+      title: "Skills",
+      it_skills: ["Python", "Java", "HTML", "CSS"],
+      languages: {
+        fluent: ["German", "English", "Russian", "Persian", "Uzbek"],
+        basic: ["Spanish"]
       },
-      soft: {
-        title: "Soft Skills",
-        skills: [
-          "Problem Solving",
-          "Teamwork",
-          "Communication",
-          "Analytical Thinking",
-          "Creativity",
-          "Project Management"
-        ]
-      }
+      abilities: ["Analytical Thinking", "Creativity", "Teamwork", "Communication"]
     },
     projects: {
-      title: "Featured Projects",
-      subtitle: "Explore some of my recent work",
+      title: "Learning Projects",
+      subtitle: "Small projects I've worked on while learning",
       project1: {
-        title: "Wize Startup - Educational Travel Platform",
-        description: "Contributed to the development of a full-stack educational travel platform using Next.js, React.js, and Node.js. Implemented user authentication, tour booking functionality, and integrated RESTful APIs. Collaborated with the team on code reviews and performance optimization.",
-        image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&auto=format&fit=crop&q=60"
+        title: "Simple Calculator (Python)",
+        description: "Basic calculator application built with Python. Implements basic arithmetic operations and error handling. My first programming project to practice Python syntax and logic.",
+        image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&auto=format&fit=crop&q=60"
       },
       project2: {
-        title: "Personal Portfolio Website",
-        description: "Designed and developed this responsive portfolio website using React.js and Tailwind CSS. Implemented dark/light mode, language switching, and optimized performance for a seamless user experience.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60"
+        title: "Personal Homepage (HTML/CSS)",
+        description: "Simple personal website created with HTML and CSS. Responsive design with basic styling. Learned about web structure and styling fundamentals.",
+        image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&auto=format&fit=crop&q=60"
       },
       project3: {
-        title: "Simple Blog Platform (Learning Project)",
-        description: "Developed a basic blog platform with user authentication, post creation, and comment functionality using Node.js, Express, and MongoDB. Focused on clean architecture and RESTful API design.",
-        image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60"
+        title: "To-Do List (Java)",
+        description: "Console-based to-do list application in Java. Allows adding, viewing, and removing tasks. Practiced object-oriented programming concepts and user input handling.",
+        image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop&q=60"
       },
       project4: {
-        title: "Task List App (Learning Project)",
-        description: "Built a responsive single-page application for managing tasks, including adding, deleting, and marking as complete. Implemented using React.js with local state management.",
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60"
+        title: "Number Guessing Game (Python)",
+        description: "Interactive guessing game where computer generates random number. Includes input validation and game logic. Fun project to practice loops and conditionals.",
+        image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=800&auto=format&fit=crop&q=60"
       },
       project5: {
-        title: "Weather App (Learning Project)",
-        description: "A web application that fetches and displays current weather data for a given city using a third-party API. Built with vanilla JavaScript, HTML, and CSS.",
-        image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&auto=format&fit=crop&q=60"
+        title: "Simple Form Validation (JavaScript)",
+        description: "Basic web form with JavaScript validation. Checks required fields and email format. Learning project for DOM manipulation and form handling.",
+        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60"
       },
       project6: {
-        title: "Student Management System (Learning Project)",
-        description: "Developed a console-based student management system in Java, allowing to add, view, update, and delete student records. Focused on object-oriented programming principles.",
-        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&auto=format&fit=crop&q=60"
+        title: "Basic File Manager (Python)",
+        description: "Simple file organizer script that sorts files by extension. Learned about file operations and directory management in Python.",
+        image: "https://images.unsplash.com/photo-1544396821-4dd40b938f0e?w=800&auto=format&fit=crop&q=60"
       }
     },
     contact: {
       title: "Let's Connect!",
-      subtitle: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
-      location: { label: "Location", value: "New York, USA", icon: "FaMapMarkerAlt" },
-      email: { label: "Email", value: "your.email@example.com", icon: "FaEnvelope" },
-      phone: { label: "Phone", value: "+1 234 567 890", icon: "FaPhone" },
-      emailButton: "Send Me a Message",
+      subtitle: "I'm looking forward to starting my Ausbildung and would love to hear from potential employers.",
+      location: { label: "Location", value: "Roonstraße 14, 37441 Bad Sachsa", icon: "FaMapMarkerAlt" },
+      email: { label: "Email", value: "bekzodhmail.de", icon: "FaEnvelope" },
+      phone: { label: "Phone", value: "+4915754814640", icon: "FaPhone" },
+      emailButton: "Contact Me",
       social: {
-        title: "Connect with me on social media",
-        github: { label: "GitHub", icon: "FaGithub", url: "https://github.com/yourusername" },
-        linkedin: { label: "LinkedIn", icon: "FaLinkedin", url: "https://linkedin.com/in/yourusername" },
-        twitter: { label: "Twitter", icon: "FaTwitter", url: "https://twitter.com/yourusername" }
+        title: "Find me online",
+        github: { label: "GitHub", icon: "FaGithub", url: "https://github.com/bekzodhuseinov" },
+        linkedin: { label: "LinkedIn", icon: "FaLinkedin", url: "https://linkedin.com/in/bekzod-huseinov" },
+        twitter: { label: "Twitter", icon: "FaTwitter", url: "https://twitter.com/bekzod_huseinov" }
       }
+    },
+    navbar: {
+      home: "Home",
+      about: "About",
+      workExperience: "Work Experience",
+      skills: "Skills",
+      projects: "Projects",
+      contact: "Contact"
     }
   },
   de: {
     hero: {
-      title: "Hallo, mein Name ist Bekzod Huseinov",
-      subtitle: "Motivierter und zielstrebiger Kandidat mit ausgeprägtem Interesse an IT. Ich freue mich, eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei ihnen zu beginnen und Teil ihres Teams zu werden.",
-      description: "Mit erster Berufserfahrung möchte ich mein Wissen in der Softwareentwicklung durch eine Ausbildung in Deutschland vertiefen. Ich bin begeistert vom Lernen und möchte zu innovativen Projekten beitragen.",
-      cta: "Meine Arbeit ansehen",
+      title: "Hallo, ich bin Bekzod Huseinov",
+      subtitle: "Motivierter Kandidat für eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
+      description: "Ich möchte gerne meine berufliche Laufbahn in der Softwareentwicklung durch eine Ausbildung in Deutschland beginnen. Mit grundlegenden Programmierkenntnissen und großer Lernbereitschaft bin ich bereit, zu Ihrem Team beizutragen.",
+      cta: "Meine Arbeiten ansehen",
+      viewResume: "Lebenslauf ansehen",
       stats: {
-        projects: "50+",
-        experience: "5+",
-        clients: "30+"
+        projects: "8+",
+        experience: "2+",
+        clients: "5+"
       }
     },
     about: {
-      title: "Über Mich",
-      subtitle: "Meine Reise",
-      description: "Ich bin ein hochmotivierter und zielstrebiger Junior-Entwickler mit starkem Interesse an der Anwendungsentwicklung. Meine Leidenschaft gilt der Technologie und ich arbeite aktiv daran, meine Fähigkeiten ständig zu verbessern. Ich suche eine Ausbildungsposition in Deutschland, um mein Wissen zu vertiefen und Teil eines innovativen Teams zu werden.",
+      title: "Über mich",
+      subtitle: "Mein Weg",
+      description: "Ich bin ein motivierter Kandidat mit starkem Interesse an IT und Anwendungsentwicklung. Ich suche eine Ausbildungsmöglichkeit, um meine Programmierfähigkeiten zu entwickeln und meine Karriere in der Softwareentwicklung zu beginnen. Ich habe bereits grundlegende Erfahrungen im Programmieren und bin sehr lernbegierig.",
       experience: {
         title: "Berufserfahrung",
         items: [
           {
-            role: "Junior-Entwickler",
-            company: "Wize Startup",
-            period: "05/2023 - Heute",
-            description: "Mitarbeit an der Entwicklung und Implementierung von Webanwendungen mit React.js und Node.js. Verantwortlich für die Erstellung von RESTful APIs und Integration von Datenbanken. Aktive Teilnahme an Code-Reviews und Optimierung der Anwendungsleistung."
+            role: "Assistent",
+            company: "Tourismusausschuss der RT",
+            period: "01/2023 - 04/2023",
+            description: "Unterstützung bei der Wartung von IT-Systemen und Netzwerk-Support. Durchführung von Software-Updates und grundlegende Fehlerbehebung. Erfahrungen mit Bürosoftware und IT-Support-Aufgaben gesammelt."
           },
           {
-            role: "Assistent, Tourismuskomitee RT",
-            company: "",
-            period: "01/2023 bis 04/2023",
-            description: "Unterstützung bei der Wartung von IT-Systemen und Netzwerken. Durchführung von Software-Updates und Fehlerbehebung."
+            role: "Berater",
+            company: "Alif Bank",
+            period: "06/2022 - 08/2022",
+            description: "Kundenberatung zu Bankprodukten und -dienstleistungen. Unterstützung bei Digitalisierungsprozessen und Kenntnisse über Geschäftsabläufe und Kundenservice erworben."
           },
           {
-            role: "Berater, Alif Bank",
-            company: "",
-            period: "06/2022 bis 08/2022",
-            description: "Kundenberatung zu Bankprodukten und -dienstleistungen. Unterstützung bei der Digitalisierung von Prozessen."
-          },
-          {
-            role: "Verkäufer, Computerladen Hightech",
-            company: "",
-            period: "07/2021 bis 10/2021",
-            description: "Verkauf und Beratung von IT-Produkten. Unterstützung bei der Installation von Software."
+            role: "Verkäufer",
+            company: "Computerladen Hrightech",
+            period: "07/2021 - 10/2021",
+            description: "Verkauf von Computer-Hardware und Software. Grundlegende technische Beratung für Kunden und Unterstützung bei Software-Installation. Verständnis für IT-Produkte und Kundenbedürfnisse entwickelt."
           }
         ]
       },
       education: {
-        title: "Ausbildung",
+        title: "Bildung & Lernen",
         items: [
           {
-            degree: "Master in Informatik",
-            school: "Universität",
-            period: "2018 - 2020"
+            degree: "Programmierung Selbststudium",
+            school: "Online-Kurse & Tutorials",
+            period: "2022 - Heute"
           },
           {
-            degree: "Bachelor in Software Engineering",
-            school: "Universität",
-            period: "2014 - 2018"
+            degree: "Grundlegende IT-Kenntnisse",
+            school: "Praktische Erfahrung",
+            period: "2021 - Heute"
           }
         ]
       }
     },
     skills: {
-      title: "Fähigkeiten & Expertise",
-      subtitle: "Technologien, mit denen ich arbeite",
-      technical: {
-        title: "Technische Fähigkeiten",
-        categories: {
-          frontend: {
-            title: "Frontend-Entwicklung",
-            skills: ["React.js", "JavaScript", "HTML", "CSS", "Tailwind CSS"]
-          },
-          backend: {
-            title: "Backend-Entwicklung",
-            skills: ["Python", "Java", "Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"]
-          },
-          tools: {
-            title: "Tools & Sonstiges",
-            skills: ["Git", "Docker", "Figma", "Jira", "Confluence"]
-          }
-        }
+      title: "Fähigkeiten",
+      it_skills: ["Python", "Java", "HTML", "CSS"],
+      languages: {
+        fluent: ["Deutsch", "Englisch", "Russisch", "Persisch", "Usbekisch"],
+        basic: ["Spanisch"]
       },
-      soft: {
-        title: "Soft Skills",
-        skills: [
-          "Problemlösung",
-          "Teamfähigkeit",
-          "Kommunikationsfähigkeit",
-          "Analytisches Denken",
-          "Kreativität",
-          "Projektmanagement"
-        ]
-      }
+      abilities: ["Analytisches Denken", "Kreativität", "Teamfähigkeit", "Kommunikation"]
     },
     projects: {
-      title: "Ausgewählte Projekte",
-      subtitle: "Entdecken Sie einige meiner aktuellen Arbeiten",
+      title: "Lernprojekte",
+      subtitle: "Kleine Projekte, an denen ich während des Lernens gearbeitet habe",
       project1: {
-        title: "Wize Startup - Bildungsreise-Plattform",
-        description: "Mitarbeit an der Entwicklung einer Full-Stack-Bildungsreise-Plattform mit Next.js, React.js und Node.js. Implementierung von Benutzerauthentifizierung, Tourbuchungsfunktionalität und Integration von RESTful APIs. Zusammenarbeit mit dem Team bei Code-Reviews und Leistungsoptimierung.",
-        image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&auto=format&fit=crop&q=60"
+        title: "Einfacher Rechner (Python)",
+        description: "Grundlegende Rechner-Anwendung mit Python entwickelt. Implementiert grundlegende arithmetische Operationen und Fehlerbehandlung. Mein erstes Programmierprojekt zum Üben von Python-Syntax und -Logik.",
+        image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&auto=format&fit=crop&q=60"
       },
       project2: {
-        title: "Persönliche Portfolio-Website",
-        description: "Entwicklung dieser responsiven Portfolio-Website mit React.js und Tailwind CSS. Implementierung von Dark/Light-Modus, Sprachumschaltung und Leistungsoptimierung für ein nahtloses Nutzererlebnis.",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60"
+        title: "Persönliche Homepage (HTML/CSS)",
+        description: "Einfache persönliche Website mit HTML und CSS erstellt. Responsives Design mit grundlegendem Styling. Grundlagen der Webstruktur und Styling gelernt.",
+        image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&auto=format&fit=crop&q=60"
       },
       project3: {
-        title: "Einfache Blog-Plattform (Lernprojekt)",
-        description: "Entwicklung einer grundlegenden Blog-Plattform mit Benutzerauthentifizierung, Beitragserstellung und Kommentarfunktion unter Verwendung von Node.js, Express und MongoDB. Fokus auf saubere Architektur und RESTful API-Design.",
-        image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60"
+        title: "Aufgabenliste (Java)",
+        description: "Konsolen-basierte Aufgabenlisten-Anwendung in Java. Ermöglicht Hinzufügen, Anzeigen und Entfernen von Aufgaben. Objektorientierte Programmierung und Benutzereingaben geübt.",
+        image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&auto=format&fit=crop&q=60"
       },
       project4: {
-        title: "Aufgabenlisten-App (Lernprojekt)",
-        description: "Erstellung einer responsiven Single-Page-Anwendung zur Aufgabenverwaltung, einschließlich Hinzufügen, Löschen und Markieren als erledigt. Implementiert mit React.js und lokaler Zustandsverwaltung.",
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60"
+        title: "Zahlenratespiel (Python)",
+        description: "Interaktives Ratespiel, bei dem der Computer eine Zufallszahl generiert. Enthält Eingabevalidierung und Spiellogik. Spaßiges Projekt zum Üben von Schleifen und Bedingungen.",
+        image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=800&auto=format&fit=crop&q=60"
       },
       project5: {
-        title: "Wetter-App (Lernprojekt)",
-        description: "Eine Webanwendung, die aktuelle Wetterdaten für eine bestimmte Stadt unter Verwendung einer Drittanbieter-API abruft und anzeigt. Erstellt mit reinem JavaScript, HTML und CSS.",
-        image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&auto=format&fit=crop&q=60"
+        title: "Einfache Formularvalidierung (JavaScript)",
+        description: "Grundlegendes Webformular mit JavaScript-Validierung. Überprüft Pflichtfelder und E-Mail-Format. Lernprojekt für DOM-Manipulation und Formularverarbeitung.",
+        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60"
       },
       project6: {
-        title: "Studentenverwaltungssystem (Lernprojekt)",
-        description: "Entwicklung eines konsolenbasierten Studentenverwaltungssystems in Java, das das Hinzufügen, Anzeigen, Aktualisieren und Löschen von Studentendatensätzen ermöglicht. Fokus auf objektorientierte Programmierprinzipien.",
-        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&auto=format&fit=crop&q=60"
+        title: "Einfacher Datei-Manager (Python)",
+        description: "Einfaches Datei-Organizer-Skript, das Dateien nach Erweiterung sortiert. Dateioperationen und Verzeichnisverwaltung in Python gelernt.",
+        image: "https://images.unsplash.com/photo-1544396821-4dd40b938f0e?w=800&auto=format&fit=crop&q=60"
       }
     },
     contact: {
-      title: "Lass uns in Kontakt treten!",
-      subtitle: "Ich bin immer offen für neue Projekte, kreative Ideen oder die Möglichkeit, Teil Ihrer Vision zu sein.",
-      location: { label: "Standort", value: "New York, USA", icon: "FaMapMarkerAlt" },
-      email: { label: "E-Mail", value: "your.email@example.com", icon: "FaEnvelope" },
-      phone: { label: "Telefon", value: "+1 234 567 890", icon: "FaPhone" },
-      emailButton: "Senden Sie mir eine Nachricht",
+      title: "Nehmen wir Kontakt auf!",
+      subtitle: "Ich freue mich darauf, meine Ausbildung zu beginnen und würde gerne von potenziellen Arbeitgebern hören.",
+      location: { label: "Standort", value: "Roonstraße 14, 37441 Bad Sachsa", icon: "FaMapMarkerAlt" },
+      email: { label: "E-Mail", value: "bekzodhmail.de", icon: "FaEnvelope" },
+      phone: { label: "Telefon", value: "+4915754814640", icon: "FaPhone" },
+      emailButton: "Kontaktieren Sie mich",
       social: {
-        title: "Verbinden Sie sich mit mir in sozialen Medien",
-        github: { label: "GitHub", icon: "FaGithub", url: "https://github.com/yourusername" },
-        linkedin: { label: "LinkedIn", icon: "FaLinkedin", url: "https://linkedin.com/in/yourusername" },
-        twitter: { label: "Twitter", icon: "FaTwitter", url: "https://twitter.com/yourusername" }
+        title: "Finden Sie mich online",
+        github: { label: "GitHub", icon: "FaGithub", url: "https://github.com/bekzodhuseinov" },
+        linkedin: { label: "LinkedIn", icon: "FaLinkedin", url: "https://linkedin.com/in/bekzod-huseinov" },
+        twitter: { label: "Twitter", icon: "FaTwitter", url: "https://twitter.com/bekzod_huseinov" }
       }
+    },
+    navbar: {
+      home: "Startseite",
+      about: "Über mich",
+      workExperience: "Berufserfahrung",
+      skills: "Fähigkeiten",
+      projects: "Projekte",
+      contact: "Kontakt"
     }
   }
-}; 
+};

@@ -44,43 +44,62 @@ const Subtitle = styled.p`
 const ContactContent = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
+  gap: 1.5rem;
   max-width: 64rem;
   margin: 0 auto;
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    gap: 3rem;
   }
 `;
 
 const ContactInfo = styled(motion.div)`
   background-color: white;
-  padding: 2.5rem;
+  padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 
   .dark & {
     background-color: #2d3748;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
+
+  @media (min-width: 640px) {
+    padding: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2.5rem;
+  }
 `;
 
 const SocialLinks = styled(motion.div)`
   background-color: white;
-  padding: 2.5rem;
+  padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   .dark & {
     background-color: #2d3748;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (min-width: 640px) {
+    padding: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2.5rem;
   }
 `;
 
@@ -98,16 +117,20 @@ const SocialTitle = styled.h3`
 
 const SocialIcons = styled.div`
   display: flex;
-  gap: 1.5rem;
+  gap: 0.75rem;
   justify-content: center;
+
+  @media (min-width: 640px) {
+    gap: 1.5rem;
+  }
 `;
 
 const SocialIcon = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: #3b82f6;
   color: white;
   border-radius: 50%;
@@ -119,8 +142,18 @@ const SocialIcon = styled.a`
   }
 
   svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    width: 3.5rem;
+    height: 3.5rem;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 `;
 
@@ -128,6 +161,7 @@ const InfoItem = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 
   &:last-child {
     margin-bottom: 0;
@@ -137,19 +171,33 @@ const InfoItem = styled.div`
 const InfoIcon = styled.div`
   background-color: #3b82f6;
   color: white;
-  padding: 0.75rem;
+  padding: 0.4rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 1rem;
-  min-width: 3rem;
-  min-height: 3rem;
+  margin-right: 0.2rem;
   flex-shrink: 0;
 
   svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  @media (min-width: 640px) {
+    margin-right: 0.5rem;
+    min-width: 3rem;
+    min-height: 3rem;
+    padding: 0.75rem;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    margin-right: 1rem;
   }
 `;
 
@@ -157,6 +205,9 @@ const InfoText = styled.div`
   font-size: 1.125rem;
   color: #374151;
   flex-grow: 1;
+  word-break: break-word;
+  flex-shrink: 1;
+  min-width: 0;
 
   .dark & {
     color: #e2e8f0;
@@ -178,7 +229,7 @@ const EmailButton = styled.a`
   justify-content: center;
   background-color: #3b82f6;
   color: white;
-  padding: 10px;
+  padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   font-size: 1.125rem;
   font-weight: 600;
@@ -188,6 +239,9 @@ const EmailButton = styled.a`
   text-decoration: none;
   margin-top: auto;
   width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 
   &:hover {
     background-color: #2563eb;
@@ -206,6 +260,7 @@ const EmailButton = styled.a`
 export const Contact = ({ translations }) => {
   return (
     <ContactSection
+      id="contact"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}

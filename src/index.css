@@ -9,6 +9,12 @@ body {
   color: #111827;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .dark body {
   background-color: #111827;
   color: #ffffff;

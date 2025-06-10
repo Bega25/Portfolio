@@ -51,7 +51,6 @@ const ProjectsGrid = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 2rem;
-  max-width: 64rem;
   margin: 0 auto;
 
   @media (min-width: 640px) {
@@ -235,6 +234,7 @@ export const Projects = ({ translations }) => {
     >
       <div className="container mx-auto px-4">
         <SectionHeader
+          id="projects"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
