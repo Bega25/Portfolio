@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
+</head>
+<body class="experience">
+  <header><br />
+    <div id="arbeit"><span>Arbeitserfahrung</span></div>
+    <p></p>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Homepage.html" >Über mich</a></li>
+        <li><a href="experience.html">Arbeitserfahrung</a></li>
+        <li><a href="skills.html" >Fähigkeiten</a></li>
+        <li><a href="contact.html" >Kontakt</a></li>
+      </ul>
+    </nav>
+    <hr />
+  </header><br />
+
+  <div id="ex" class="animate-on-scroll"><br />
+    <ul><span>FRONTEND ENTWICKLER BEI WIZETRAVEL</span></ul><br />
+    <li><span>Unterstützung bei der Strukturierung von Inhalten</span></li><br />
+    <li><span>Erkennung und Meldung von Problemen</span></li><br />
+    <li><span>Unterstützung bei der inhaltlichen Pflege der Website (z.B. Texte eingefügt, Links überprüft)</span></li>
+  </div>
+
+  <div id="ex1" class="animate-on-scroll"><br />
+    <ul><span>ASSISTENT, TOURISMUSAUSSCHUSS DER RT</span></ul><br />
+    <li><span>Unterstützung bei der Entwicklung von Produkten</span></li><br />
+    <li><span>Sammlung und Analyse von Daten zu touristischen Dienstleistungen</span></li><br />
+    <li><span>Unterstützung bei der Organisation von Meetings</span></li>
+  </div>
+
+  <div id="ex2" class="animate-on-scroll"><br />
+    <ul><span>KUNDENBERATER BEI DER ALIF BANK</span></ul><br />
+    <li><span>Kundenberatung zu Bankprodukten und Dienstleistungen</span></li><br />
+    <li><span>Verkauf von Bankprodukten</span></li><br />
+    <li><span>Schulung von Kunden in der Nutzung der Anwendungen</span></li>
+  </div>
+
+  <div id="ex3" class="animate-on-scroll"><br />
+    <ul><span>VERKÄUFER IM COMPUTERLADEN HIGHTECH</span></ul><br />
+    <li><span>Verkauf von Computer-Hardware und Software</span></li><br />
+    <li><span>Beratung von Kunden zu technischen Produkten</span></li><br />
+    <li><span>Technischer Support für die Hardware- und Softwareinstallation</span></li>
+  </div><br />
+
+  <footer id="foot">
+    <hr /><br />
+    <span>Autor: Bekzod Huseinov</span><br /><br />
+    <span>&copy; Urheberrechte vorbehalten.</span><br /><br /><br />
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.intersectionRatio >= 0.5) {
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

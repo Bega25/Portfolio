@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
+</head>
+<body class="about">
+  <header>
+    <p>Hallo, mein Name ist</p>
+    <h1>Bekzod Huseinov</h1>
+    <p>
+      Ich bin sehr motivierter und zielstrebiger Kandidat mit starkem Interesse an IT-Bereich. Ich freue mich, eine Ausbildung bei Ihnen zu beginnen und Teil Ihres Teams zu werden.
+    </p>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="Homepage.html">Über mich</a></li>
+        <li><a href="experience.html">Arbeitserfahrung</a></li>
+        <li><a href="skills.html">Fähigkeiten</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <hr />
+  </header>
+
+  <div id="uber"><h1>ÜBER MICH</h1></div><br />
+  <div id="ub">
+    Ich bin ein motivierter und lernbereiter Bewerber mit einem starken Interesse an IT und Technologie. Neben meiner Ausbildung im Hotel habe ich mich intensiv und eigenständig mit Webentwicklung und Programmierung beschäftigt. Dabei habe ich erste Kenntnisse in HTML, CSS, JavaScript, Python und Java erworben und eigene kleine Projekte umgesetzt. Diese Website habe ich selbst erstellt, um mich digital vorzustellen und zu zeigen, dass ich bereit bin, Verantwortung zu übernehmen und eine Ausbildung bei Ihnen zu beginnen. Mein ursprüngliches Ziel war es, nach der Ausbildung im Hotel zu arbeiten und parallel ein IT-Studium zu machen, aber aus gesundheitlichen Gründen (Hautreizungen wegen Reinigungschemikalien) habe ich mich jedoch für eine IT-Ausbildung entschieden, weil mir die praktische Anwendung von Wissen besonders wichtig ist.
+  </div><br /><br /><br /><br />
+
+  <div id="aus"><h1>AUSBILDUNG</h1></div><br /><br />
+
+  <div id="box1" class="animate-on-scroll">
+    <br />
+    <h1>Online Kurse & Tutorials</h1>
+    <h3>09 / 2023 - HEUTE</h3>
+    <h2>Selbststudium: Python, Java, JavaScript, HTML & CSS</h2>
+  </div>
+
+  <div id="box" class="animate-on-scroll">
+    <br />
+    <h1>BBS2 Osterode am Harz</h1>
+    <h3>10 / 2023 - HEUTE</h3>
+    <h2>Ausbildung als Hotelfachmann</h2>
+  </div>
+
+  <div id="box2" class="animate-on-scroll">
+    <br />
+    <h1>Russische-Tadschikische (Slawische) Universität</h1>
+    <h3>09 / 2021 - 10 / 2023</h3>
+    <h2>Management (Bachelor)</h2>
+  </div>
+
+  <div id="box3" class="animate-on-scroll">
+    <br />
+    <h1>Mittelschule 86</h1>
+    <h3>09 / 2010 - 07 / 2021</h3>
+    <h2>Mittlere Reife</h2>
+  </div><br /><br /><br />
+
+  <div class="kontakt-section">
+  <h1 data-i18n="contact_title">Kontakt</h1>
+  <p data-i18n="contact_text">
+    Falls Sie Fragen haben, bitte zögern Sie sich nicht, mich zu kontaktieren
+  </p>
+  <a href="mailto:bekzodh@mail.de" class="contact-button" data-i18n="contact_button">
+    E-Mail schreiben
+  </a>
+</div>
+
+  <footer id="foot">
+    <hr /><br />
+    <div>Autor: Bekzod Huseinov</div><br />
+    <div>&copy; Urheberrechte vorbehalten.</div><br /><br />
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.intersectionRatio >= 0.5) {
+          entry.target.classList.add("visible");
+        } else {
+          entry.target.classList.remove("visible");
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll(".animate-on-scroll").forEach((el) => observer.observe(el));
+  </script>
+</body>
+</html>

@@ -1,0 +1,574 @@
+body{
+    
+    color:aliceblue;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    min-height: 100vh;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.about{
+    background-image: url(images/back.avif);
+}
+body.experience{
+    background-image: url(images/ex.webp);
+}
+body.skills{
+    background-image: url(images/skills.jpg);
+}
+body.contact{
+    background-image: url(images/contact.jpg);
+}
+header{
+    text-align: center;
+    font-size: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: darkslategrey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 22px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    display: block;
+    text-align:center;
+    
+}
+.navbar a:hover{
+    background-color: rgb(95, 88, 88);
+    
+}
+#db{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+   
+}
+#bd{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+    display: block;
+    text-align:center;
+}
+
+.navbar li{
+    float: left; 
+}
+#uber{
+    font-size: 25px;
+    text-align: center;
+    color: aqua;
+    border: 2px solid;
+    border-radius: 100%;
+}
+#ub{
+   font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+#aus{
+    font-size: 25px;
+    text-align: center;
+    color: aqua;
+    border: 2px solid;
+    border-radius: 100%;
+}
+#box1{
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/pro.webp);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;  }
+#box{
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/12.webp);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;  
+}
+
+#box2{
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/uni.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;  
+
+}
+#box3{
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/sch.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#kontakt{
+    font-size: 25px;
+    text-align: center;
+    color: cyan;
+
+}
+#pp{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#foot{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.contact-button {
+  display: inline-block;
+  padding: 1.1rem 4rem;
+  background-color: #47494e;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: darkcyan;
+}
+#arbeit{
+    font-size: 65px;
+    text-align: center;
+    color: cyan;
+}
+
+#ex{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/wi.webp);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#ex1{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/tra.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#ex2{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/bank.avif);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#ex3{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/shop.avif);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#skills{
+    font-size: 65px;
+    text-align: center;
+    color: cyan;
+}
+#kontakt{
+    font-size: 65px;
+    text-align: center;
+    color: cyan;
+}
+#sk{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/it.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    position: relative;
+    left: 200px;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#sk1{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/l.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#sk2{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    position: relative;
+    bottom: 210px;
+    left: 750px;
+
+    background-image: url(images/so.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#sk3{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    position: relative;
+    bottom: 775px;
+    left: 750px;
+
+    background-image: url(images/g.webp);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#db{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/home.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+#bd{
+    list-style-type: none;
+    width: 400px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 25px;
+
+    background-image: url(images/co.jpg);
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-align: center;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+
+    position: relative;
+    left: 750px;
+    bottom: 210px;
+
+
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    white-space: normal;
+}
+@keyframes slideLeft{
+    from{transform: translateX(220%)}}
+@keyframes slideRight{
+    to{transform: translateX(222%)}}
+@keyframes fadeIn{
+    100%{opacity: 1;}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+#language-switcher {
+  text-align: center;
+  margin: 10px;
+}
+
+#language-switcher button {
+  margin: 0 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#language-switcher button:hover {
+  background-color: darkcyan;
+}
+.kontakt-section {
+  text-align: center;
+  margin-top: 60px;
+}
+

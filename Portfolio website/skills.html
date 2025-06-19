@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width",>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>  
+</head>
+<body class="skills">
+    <header><br>
+        <div id="skills">Fähigkeiten</div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="Homepage.html">Über mich</a></li>
+                <li><a href="experience.html">Arbeitserfahrung</a></li>
+                <li><a href="skills.html">Fähigkeiten</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+
+        </nav>
+        <hr>
+    </header><br>
+
+    <div id="sk" class="animate-on-scroll"><br><ul>IT-KENNTNISSE</ul><br>
+        <li>HTML, CSS, JavaScript.</li><br>
+        <li>Python, Java</li><br>
+        <li>Werkzeuge: VS Code, Pycharm, Eclipse IDE for Java Developers, Github.</li></div>
+
+    <div id="sk1" class="animate-on-scroll"><br><ul>SPRACHKENNTNISSE</ul><br>
+        <li>Deutsch - fließend</li>
+        <li>Englisch - fließend</li>
+        <li>Russisch - fließend</li>
+        <li>Persisch - fließend</li>
+        <li>Uzbekisch - fließend</li>
+        <li>Spanisch - Grundkenntnisse</li></div>
+
+    <div id="sk2" class="animate-on-scroll"><br><ul>PERSÖNLICHE STÄRKEN</ul><br>
+        <li>Multitasking Fähigkeiten</li><br>
+        <li>Kommunikations- und Teamfähigkeiten</li><br>
+        <li>Zielorientiert</li><br>
+        <li>Kreativität und Problemlösungsfähigkeit</li></div>
+    <div id="sk3" class="animate-on-scroll"><br><ul>ALLGEMEINE FÄHIGKEITEN</ul><br>
+        <li>Grundkenntnisse in Microsoft Word, Excel, PowerPoint</li><br>
+        <li> Grundkenntnisse über Hardware und Software eines Computers</li><br></div>
+    <footer id="foot">
+        <hr>
+        <br>
+        Autor:Bekzod Huseinov<br>
+        <br>
+        &copy;Urheberrechte vorbehalten. <br>
+      <br>
+      <br>
+      
+    </footer>
+    <script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.intersectionRatio >= 0.5) {
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
